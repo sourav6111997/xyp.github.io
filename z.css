@@ -1,0 +1,299 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.flex{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.inner{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+header{
+	background-image: url("images/background.png");
+	background-position: center;
+	background-size: cover;
+	
+}
+.logo{
+	width: 50%;
+}
+.logo-img{
+	width: 30%;
+	height:75px;
+	margin-left: 0;
+}
+.navigation{
+	width: 42%;
+}
+nav ul{
+	list-style-type: none;
+	margin-left: 150px;
+	margin-top: 20px;
+}
+nav ul li{
+	display:inline-block;
+	margin-right: 20px;
+}
+.menu{
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	top:20px;
+	right: 5px;
+	cursor: pointer;
+	display: inline-block;
+
+}
+.toggle{
+	width:5%;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.box{
+	width: 50%;
+	margin-top: 30px;
+}
+
+.banner-img{
+	width:100%;
+}
+.box1 h1{
+	font-weight: 800;
+	font-size: 2rem;
+	padding: 20px 5px;
+	font-family: sans-serif;
+	text-transform: capitalize;
+}
+.square{
+	height:12px;
+	width:12px;
+	display:inline-block;
+	background:#f67c92;
+	margin:15px 0;
+}
+.box1 p{
+	width:70%;
+}
+.btn{
+	margin-top: 15px;
+	padding: 10px 25px;
+	color:#f67c92;
+	background:transparent;
+	border:2px solid #f67c92;
+	margin-bottom: 30px;
+}
+.line1{
+	width: 30px;
+	height: 1px;
+	background-color: #f67c92;
+ display: inline-block;
+}
+.line2{
+	width: 15px;
+	height: 1px;
+	background-color: #f67c92;
+ display: inline-block;
+}
+.img-box{
+	width: 50%;
+}
+.about-img{
+	width: 100%
+}
+.text-box{
+	width:50%;
+}
+.text-box h1{
+	text-align: right;
+	margin-top: 15px;
+}
+.square1{
+	text-align: right;
+	margin-left: 450px;
+}
+.text-box p,.text-box h3,.text-box h5{
+	text-align: right;
+}
+.three-section{
+	padding-top: 60px;
+}
+.vox1,.vox2,.vox3{
+	width: 30%;
+}
+.voximg{
+	height: 130px;
+	margin-left: 100px;
+}
+.three-section h2{
+	margin-bottom: 30px;
+	text-align: center;
+}
+.three-section p{
+	margin-bottom: 50px;            
+}
+.btn1{
+position: relative;
+left:45%;
+transition-timing-function: 0.5s;
+}
+.btn1:hover{
+	transform: scale(1.2);
+	color:#fff;
+	background:#f67c92;
+}
+.box5{
+	width: 50%;
+}
+.cou{
+	width: 100%;
+}
+.tex{
+	width: 50%;
+	height: 30px;
+	margin-top: 20px;
+	border:2px solid #f67c92;
+	padding-left: 10px;
+}
+.btn3{
+	position: absolute;
+	top: 2800px;
+	left: 75px;
+}
+.hori{
+	margin: 30px auto;
+	width:1200px;
+}
+footer h4{
+	margin: 20px 0;
+	color:#f67c92;
+	text-align: left;
+}
+footer p{
+	margin-bottom: 30px;
+}
+#panel{
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #f67c91;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #264e86;
+  display: block;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.cross{
+	position: relative;
+	top:5px;
+	right:5px;
+}
+@media only screen and (max-width:480px){
+	header{
+		background-image: none;
+	}
+	.logoimg{
+	width: 40%;
+	height:75px;
+	margin-left: 0;
+	margin-bottom: 10px;
+}
+.box,.box1{
+	width:100%;
+}
+.box1 h1{
+	margin: 0px 20px;
+}
+.square,.btn{
+	margin-left: 20px;
+}
+.box1 p{
+	margin: 0 20px;
+	width:80%;
+}
+.line1,.line2{
+	margin-left: 20px;
+}
+.img-box,.text-box{
+	width: 100%;
+}
+.text-box h1,.text-box p,.text-box h3{
+	text-align: left;
+	margin-left: 20px;
+}
+.square1{
+	margin-left: 0;
+}
+.text-box h5{
+	margin-right: 20px;
+}
+.vox1,.vox2,.vox3,.box5{
+	width: 100%;
+}
+.tex{
+	width: 80%;
+	margin-left: 20px;
+}
+.cou{
+	margin-top: 80px;
+}
+.three-section p{
+	margin-right:20px;
+	margin-left:20px;
+	margin-bottom: 20px;
+}
+.btn1{
+	left: 25%;
+}
+.about-img{
+	margin-top: 20px;
+}
+.btn3{
+	top:4350px;
+}
+.fox{
+	width: 50%;
+}
+footer h4,footer p{
+	margin-left: 20px;
+}
+}
+}
